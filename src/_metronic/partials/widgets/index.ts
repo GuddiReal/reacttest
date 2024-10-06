@@ -90,3 +90,6 @@ export * from './_new/cards/CardsWidget20'
 export * from './_new/lists/ListsWidget26'
 
 export * from './_new/engage/EngageWidget10'
+
+export * from '../../../app/pages/dashboard/ImgSlider.tsx'
+export * from '../../../app/pages/dashboard/Providers.tsx'

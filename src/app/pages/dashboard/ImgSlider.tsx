@@ -1,4 +1,4 @@
-import React, {FC} from "react";
+import React from "react";
 import Slider from "react-slick";
 
 function SampleNextArrow(props) {

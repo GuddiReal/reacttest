@@ -2,8 +2,8 @@ import {FC} from 'react'
 import {useIntl} from 'react-intl'
 import {toAbsoluteUrl} from '../../../_metronic/helpers'
 import {PageTitle} from '../../../_metronic/layout/core'
-import {ImgSlider} from '../../pages/dashboard/ImgSlider.jsx'
-import {Providers} from '../../pages/dashboard/Providers.jsx'
+import {ImgSlider} from './ImgSlider.tsx'
+import {Providers} from './Providers.tsx'
 import {
   ListsWidget2,
   ListsWidget4,
