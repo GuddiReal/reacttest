@@ -2,8 +2,8 @@ import {FC} from 'react'
 import {useIntl} from 'react-intl'
 import {toAbsoluteUrl} from '../../../_metronic/helpers'
 import {PageTitle} from '../../../_metronic/layout/core'
-import {ImgSlider} from './ImgSlider'
-import {Providers} from './Providers'
+// import {ImgSlider} from './ImgSlider'
+// import {Providers} from './Providers'
 import {
   ListsWidget2,
   ListsWidget4,
@@ -57,7 +57,7 @@ const DashboardPage: FC = () => (
 
           <div className='col-xxl-12'>
 
-              <Providers> </Providers>
+              {/*<Providers> </Providers>*/}
 
           </div>
 
@@ -71,7 +71,7 @@ const DashboardPage: FC = () => (
 
           <div className='col-xxl-12'>
 
-              <ImgSlider> </ImgSlider>
+              {/*<ImgSlider> </ImgSlider>*/}
 
           </div>
 
