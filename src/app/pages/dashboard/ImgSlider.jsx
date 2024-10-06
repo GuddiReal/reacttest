@@ -1,5 +1,4 @@
-import React from "react";
-import { Component } from "react";
+import React, {FC} from "react";
 import Slider from "react-slick";
 
 function SampleNextArrow(props) {
@@ -72,7 +71,7 @@ const ImagesArray =[
     }
 ]
 
-export const ImgSlider = () =>{
+export const ImgSlider: FC  = ( ) => {
     return (
         <>
             <Slider {...settings} >
