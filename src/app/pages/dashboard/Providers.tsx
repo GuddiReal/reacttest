@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 
-function SampleNextArrow(props) {
+function SampleNextArrow(props:any) {
     const { className, style, onClick } = props;
     return (
         <div
@@ -12,7 +12,7 @@ function SampleNextArrow(props) {
     )
 }
 
-function SamplePrevArrow(props) {
+function SamplePrevArrow(props :any) {
     const { className, style, onClick } = props;
     return (
         <div
