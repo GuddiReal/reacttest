@@ -72,7 +72,7 @@ const ImagesArray =[
 ]
 
 
-export const Providers: FC  = ( ) => {
+  const Providers  = ( ) => {
     return (
         <>
             <Slider {...settings} >
@@ -129,3 +129,4 @@ export const Providers: FC  = ( ) => {
 
     )
 }
+export {Providers}

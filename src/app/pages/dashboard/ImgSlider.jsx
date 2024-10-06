@@ -71,7 +71,7 @@ const ImagesArray =[
     }
 ]
 
-export const ImgSlider: FC  = ( ) => {
+ const ImgSlider   = ( ) => {
     return (
         <>
             <Slider {...settings} >
@@ -217,3 +217,5 @@ export const ImgSlider: FC  = ( ) => {
 
     )
 }
+
+export {ImgSlider}
